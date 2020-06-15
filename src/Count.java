@@ -10,5 +10,12 @@ public class Count {
     	 System.out.println("Your  sentence is:"+str);
     	 System.out.println("Please enter the alphabet you want to count:");
     	 String alpha=sc.nextLine();
+    	 
+         if(alpha.charAt(0)>=0x41 && alpha.charAt(0)<=0x5A && alpha.charAt(0)>=0x61 && alpha.charAt(0)<=0x7A)
+    	 {
+    			 System.out.println("right");
+    	 }
+    	 else
+    		 System.out.println("Please verify the alphabet");
      }
 }
